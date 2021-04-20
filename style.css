@@ -1,0 +1,63 @@
+.width_container {
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7eae4;
+}
+
+#header {
+    background-color: #a7100c;
+}
+
+.content {
+    padding: 2% 15%;
+}
+
+h1 {
+    width: 80%;
+    font-family: fantasy;
+    font-weight: 1000;;
+    font-size: 50px;
+    color: white;
+    padding: 2% 15%;
+    margin: 1% 0;
+}
+
+h3 {
+    font-family: fantasy;
+    font-weight: 700;;
+    font-size: 30px;
+    margin: 1% 0;
+}
+
+.article_preview {
+    max-width: 500px;
+    background-color: white;
+    padding: 2% 2%;
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.info {
+    width: 100%;
+}
+
+.info_content {
+    width: 50%;
+    display: inline-grid;
+}
+
+.info_content:nth-child(2) {
+    text-align: right;
+    margin-right: 0;
+}
+
+.title {
+    margin-bottom: 2%;
+}
